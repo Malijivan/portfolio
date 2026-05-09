@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(23, 52, 107) ;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    height: 80px;
+    font-size: 30px;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lgo{
+    margin: 15px;
+}
+
+nav{
+    width: 70%;
+    height: 80px;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover{
+    color: rgb(30, 146, 107);
+}
+
+li #CV{
+    color: rgb(239, 186, 87);
+}
+
+/* section */
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 100px;
+}
+
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid rgb(23, 52, 107);
+    box-shadow: aqua 0px 0px 45px 2px;
+
+}
+.right{
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 140px;
+}
+.right h1
+{
+    color: whitesmoke;
+    font-size: 40px;
+}
+span
+{
+    color: aqua;
+}
+.right h2
+{
+    color: rgb(181, 255, 186);
+}
+.right p
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.right #CV2
+{
+    
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}.right a
+{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.me
+{
+    padding-top: 190px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    padding-top: 30px;
+    width: 90%;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid aqua;
+    box-shadow: aqua 0px 0px 10px 2px;
+}
+.container h1
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.container p
+{
+    color: white;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+table, th,tr, td
+{
+    border: 1px solid rgba(0, 255, 255, 0.646);
+    border-collapse: collapse ;
+    color: white;
+}
+table
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    box-shadow: aqua 0px 0px 7px 1px;
+}
+table th
+{
+    background-color: rgba(12, 220, 220, 0.509);
+}
+.skill-container
+{
+    margin-top: 160px;
+    width: 100%;
+    height: 440px;
+}
+.skill-container h1
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.skill 
+{
+
+    width: 80%;
+    height: 320px;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: aqua 0px 0px 7px 1px;
+
+}
+.skill-cards
+{
+    width: 25%;
+    height: 250px;
+    border: 2px solid rgb(107, 255, 206);
+    margin: 20px;
+    border-radius: 30px;   
+    box-shadow: aqua 0px 0px 6px 1px; 
+    transition: .6s;
+
+}
+.skill-cards:hover
+{
+    transform: scale(1.1);
+}
+.skill-cards h1
+{
+    color: orange;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.skill-cards ul li
+{
+    color: white;
+    margin-bottom : 10px;
+    padding-top: 0;
+    font-size: 25px;
+}
+i
+{
+    padding-top: 10px;
+}
+.project-conteiner
+{
+    margin-top: 160px;
+    width: 100%;
+    height: 480px;
+}
+.project-conteiner h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.project-cards
+{
+    width: 80%;
+    height: 360px;
+    margin-left: 10%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: aqua 0px 0px 7px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1
+{
+    width: 25%;
+    height: 280px;
+    border: 2px solid rgb(215, 156, 255);
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+
+}
+.card1 h2, h3
+{
+    text-align: center;
+    color: white;
+}
+.card1 h2
+{
+        padding-top:30px ;
+}
+
+.card1 ul
+{
+    color: rgb(92, 255, 171);
+    font-weight: 500;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+.card1 li
+{
+
+}
+.card1 #view
+{
+    color: black;
+    border: 2px solid rgb(16, 210, 178);
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: rgb(16, 210, 178);
+    padding: 10px;
+}
+.card1 h5
+{
+    color: white; font-size: 20px;
+    text-align: center;
+}
+.card1 h4
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 90px;
+}
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-form{
+    width: 500px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.contact-form h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    font-size: 16px;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+    color: #cbd5e1;
+}
+
+form textarea{
+    height: 120px;
+    resize: none;
+}
+
+button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #0284c7;
+}
+
+/* mobile responsive design */
+
+@media only screen and (max-width:426px) 
+
+{
+   body
+{
+    background-color: rgb(23, 52, 107);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header 
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.logo
+{
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 17px;
+}
+#lgo
+{
+    color: rgb(127, 255, 212);
+}
+span 
+{
+    display: block;
+
+}
+nav
+{
+    display: none;
+}
+#CV
+{
+    display: none;
+}
+
+
+
+/* section*/
+
+    section{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left{
+        width: 100%;
+        height: 270px;
+    }
+    .left img{
+        width: 250px;
+        height: 250px;
+        margin-top: 120px;
+    }
+
+    .right{
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+    width: 90%;
+    height: 420px;
+    background-color: transparent;
+    border: 2px solid aqua;
+    box-shadow: aqua 0px 0px 10px 2px;
+    }
+    .me
+{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   .skill-container
+{
+    width: 90%;
+    height: 700px;
+    background-color: transparent;
+    padding-left: 20px;
+
+}
+
+    .skill-container
+    {
+        height: auto;
+    }
+
+    .skill-container h1
+    {
+        font-size: 35px;
+    }
+
+    .skill
+    {
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        flex-direction: column;
+        padding: 15px 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    .skill-cards
+    {
+        width: 90%;
+        height: 230px;
+        margin: 15px 0;
+    }
+
+    .skill-cards h1
+    {
+        font-size: 24px;
+        
+    }
+
+    .skill-cards ul li
+    {
+        font-size: 18px;
+        padding-left: 60px;
+    }
+     .project-conteiner
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    .project-conteiner h1
+    {
+        font-size: 32px;
+    }
+
+    .project-cards
+    {
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 20px 0;
+    }
+
+    .card1
+    {
+        width: 90%;
+        height: auto;
+
+        margin: 15px 0;
+        padding-bottom: 20px;
+    }
+
+    .card1 h2
+    {
+        padding-top: 20px;
+        font-size: 40pxpx;
+    }
+
+    .card1 h3
+    {
+        font-size: 18px;
+    }
+
+    .card1 ul
+    {
+        padding-left: 25px;
+        font-size: 25px;
+    }
+
+    .card1 h5
+    {
+        font-size: 18px;
+    }
+
+    .card1 #view
+    {
+        margin-left: 100px;
+        padding: 10px;
+        font-size: 14px;
+
+    }
+    .card1 h4 
+    {
+        padding-top: 40px;
+    }
+     .contact-form{
+        width: 100%;
+        padding: 22px;
+        border-radius: 15px;
+    }
+
+    .contact-form h2{
+        font-size: 24px;
+    }
+
+    form input,
+    form textarea{
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    button{
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+}
+
+
